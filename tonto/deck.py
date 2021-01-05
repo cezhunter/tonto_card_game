@@ -30,6 +30,7 @@ an empty deck or an unshuffled one.
   deck_2.shuffle()
   card = deck_2.get_card()
 """
+
 from random import Random
 from typing import List, Optional
 

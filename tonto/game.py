@@ -30,6 +30,7 @@ after the game ends.
     game = Game(["Berkelly", "Tonto"])
     game.play()
 """
+
 from typing import Dict, List, Optional
 from configparser import ConfigParser
 from os.path import abspath, dirname, join
