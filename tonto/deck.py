@@ -51,9 +51,9 @@ class Deck:
 
     """The Deck class to be used to create and manage decks of playing cards.
 
-    Deck objects can be initiated as empty decks using the empty argument or
-    as a new unshuffled standard deck. Optionally, an instance of a random
-    object can be accepted to determine shuffling. Decks can have cards
+    Deck objects can be initiated as empty Decks using the empty argument or
+    as a new unshuffled standard deck. Optionally, an instance of a Random
+    object can be accepted to determine shuffling. Decks can have Cards
     shuffled, added, removed, or have their top cards "turned" (viewed). Decks
     can also be sorted based on a given order of suits. Decks can be compared
     to other decks (==). Decks are iterable.
@@ -67,8 +67,8 @@ class Deck:
         Args:
             empty: Whether the deck should start out empty.
             random_instance:
-                Optional; If given, will use to shuffle instead of internal
-                instance.
+                Optional; If given, will use Random instance to shuffle instead
+                of internal instance.
         """
         self._current_card = 0
         self._deck: List[Card] = []
@@ -82,7 +82,7 @@ class Deck:
         """Adds Card to the top of the Deck.
 
         Args:
-            card: Whether the deck should start out empty.
+            card: Card to be added to Deck.
         """
         self._deck.append(card)
 
@@ -93,7 +93,7 @@ class Deck:
             Card from the top of the Deck.
 
         Raises:
-            DeckEmptyError: The deck has run out of cards.
+            DeckEmptyError: The Deck has run out of cards.
         """
         try:
             return self._deck.pop()
