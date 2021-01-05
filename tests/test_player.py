@@ -20,10 +20,10 @@
 
 import pytest
 
-from card import Card
-from deck import Deck
-from exception import InvalidCardError, InvalidPlayerError
-from player import Player, Players
+from tonto.card import Card
+from tonto.deck import Deck
+from tonto.exception import InvalidCardError, InvalidPlayerError
+from tonto.player import Player, Players
 
 STRING_1 = "Berkelly holds [] totalling 0 points"
 STRING_2 = "Berkelly holds [('Clubs', 'King')] totalling 52 points"

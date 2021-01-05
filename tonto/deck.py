@@ -34,8 +34,8 @@ an empty deck or an unshuffled one.
 from random import Random
 from typing import List, Optional
 
-from card import Card
-from exception import DeckEmptyError
+from tonto.card import Card
+from tonto.exception import DeckEmptyError
 
 __author__ = "Cezanne Vahid"
 __copyright__ = "Copyright 2020, Tonto's Card Game"

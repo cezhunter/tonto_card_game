@@ -33,7 +33,7 @@ with a suit and rank.
 from enum import IntEnum
 from typing import Union
 
-from exception import InvalidCardRankError, InvalidCardSuitError
+from tonto.exception import InvalidCardRankError, InvalidCardSuitError
 
 __author__ = "Cezanne Vahid"
 __copyright__ = "Copyright 2020, Tonto's Card Game"

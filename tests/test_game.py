@@ -22,10 +22,10 @@ from random import Random
 
 import pytest
 
-from card import Card
-from deck import Deck
-from exception import GameError
-from game import Game
+from tonto.card import Card
+from tonto.deck import Deck
+from tonto.exception import GameError
+from tonto.game import Game
 
 MESSAGE = {
     "WELCOME": ["Welcome."],

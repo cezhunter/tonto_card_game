@@ -27,7 +27,7 @@ would like to play again after each game."""
 
 import argparse
 
-from game import Game
+from tonto.game import Game
 
 __author__ = "Cezanne Vahid"
 __copyright__ = "Copyright 2020, Tonto's Card Game"

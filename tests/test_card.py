@@ -20,8 +20,8 @@
 
 import pytest
 
-from card import Card
-from exception import InvalidCardRankError, InvalidCardSuitError
+from tonto.card import Card
+from tonto.exception import InvalidCardRankError, InvalidCardSuitError
 
 __author__ = "Cezanne Vahid"
 __copyright__ = "Copyright 2020, Tonto's Card Game"

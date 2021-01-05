@@ -41,9 +41,9 @@ names. The Players class also provides leaderboard metrics.
 from collections import namedtuple
 from typing import Dict, List
 
-from card import Card
-from deck import Deck
-from exception import InvalidPlayerError
+from tonto.card import Card
+from tonto.deck import Deck
+from tonto.exception import InvalidPlayerError
 
 PLACE = namedtuple(
     "Place",

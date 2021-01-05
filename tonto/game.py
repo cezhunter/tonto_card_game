@@ -37,9 +37,9 @@ from os.path import abspath, dirname, join
 from random import Random
 from string import Template
 
-from deck import Deck
-from exception import GameError, DeckEmptyError
-from player import Players
+from tonto.deck import Deck
+from tonto.exception import GameError, DeckEmptyError
+from tonto.player import Players
 
 __author__ = "Cezanne Vahid"
 __copyright__ = "Copyright 2020, Tonto's Card Game"

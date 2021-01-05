@@ -22,9 +22,9 @@ from random import Random
 
 import pytest
 
-from card import Card
-from deck import Deck
-from exception import DeckEmptyError, InvalidCardError
+from tonto.card import Card
+from tonto.deck import Deck
+from tonto.exception import DeckEmptyError, InvalidCardError
 
 UNSHUFFLED_DECK = [
     Card("Spades", "2"),
