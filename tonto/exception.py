@@ -42,7 +42,7 @@ class GameError(Exception):  # pylint: disable=missing-class-docstring
 
     def __init__(self, err):
         self.message = "Not a valid game: {err}".format(
-            err=str(err))
+            err=err)
         super().__init__(self.message)
 
 
@@ -50,7 +50,7 @@ class InvalidCardError(Exception):  # pylint: disable=missing-class-docstring
 
     def __init__(self, err):
         self.message = "{err} is not a valid card.".format(
-            err=str(err))
+            err=err)
         super().__init__(self.message)
 
 
@@ -58,7 +58,7 @@ class InvalidCardRankError(Exception):  # pylint: disable=missing-class-docstrin
 
     def __init__(self, err):
         self.message = "The card rank '{err}' does not exist.".format(
-            err=str(err))
+            err=err)
         super().__init__(self.message)
 
 
@@ -66,7 +66,7 @@ class InvalidCardSuitError(Exception):  # pylint: disable=missing-class-docstrin
 
     def __init__(self, err):
         self.message = "The card suit '{err}' does not exist.".format(
-            err=str(err))
+            err=err)
         super().__init__(self.message)
 
 
@@ -74,5 +74,5 @@ class InvalidPlayerError(Exception):  # pylint: disable=missing-class-docstring
 
     def __init__(self, err):
         self.message = "{err} is not a valid player.".format(
-            err=str(err))
+            err=err)
         super().__init__(self.message)
