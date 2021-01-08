@@ -31,11 +31,11 @@ after the game ends.
     game.play()
 """
 
-from typing import Dict, List, Optional
 from configparser import ConfigParser
 from os.path import abspath, dirname, join
 from random import Random
 from string import Template
+from typing import Dict, List, Optional
 
 from tonto.deck import Deck
 from tonto.exception import GameError, DeckEmptyError
